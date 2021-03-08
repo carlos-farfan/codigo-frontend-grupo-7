@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+
+#texto_negrita{
+    font-weight: bold;
+}
+
+#texto_italica{
+    font-style: italic;
+}
+#autor{
+    font-weight: bold;
+}
+.estilo_de_letra{
+    font-family: 'Poppins', sans-serif;
+}

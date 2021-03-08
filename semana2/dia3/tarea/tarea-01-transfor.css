@@ -1,0 +1,26 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(orange,purple);
+    text-align: center;
+}
+
+
+#blanco-y-negro{
+    height: 250px;
+    filter:grayscale(100%);
+    border-radius: 25px;
+    text-align: center;
+    transform: rotate(180deg);
+}
+#color{
+    height: 250px;
+    border-radius: 25px;
+    text-align: center;
+    transform: skewX(45deg);
+}
+
+
+
+
+

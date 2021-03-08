@@ -1,0 +1,31 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh-ik602HHCwnwfiLAlfMF0eLx2_t5DqrpVg&usqp=CAU");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: seashell;
+    text-align: center;
+    background-color: rgb(6, 11, 61);
+    margin-top: 50px;
+
+
+}
+
+.letra{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgMCTwhiDu58lv_NSdCkudQMCi_0N060xmVQ&usqp=CAU");
+    background-size: 80%;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#inglaterra{
+   /* background-size: contain;*/
+    height: 300px;
+    width: 100vw;
+}

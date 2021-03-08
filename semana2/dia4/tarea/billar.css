@@ -1,0 +1,84 @@
+body{
+    background-color: aquamarine;
+    margin: auto;
+}
+
+#palo{
+    top: 2500px;
+    left: 200px;
+    width: 600px;
+    position: relative;
+    animation: animaciones-palo 3s;
+    transform: rotate(45deg);
+}
+
+#mesa{
+    position: absolute;
+    width: 100vw;
+}
+
+#bola{
+    position: relative;
+    top: 510px;
+    left: 120px;
+    width: 50px;
+    animation: animaciones-bola 3s;
+}
+
+
+@keyframes animaciones-palo{
+    0%{
+        transform: translateY(80px) rotate(45deg);
+    }
+    20%{
+        transform: translateY(100px) rotate(60deg);
+
+    }
+    30%{
+        transform: translateY(120px) rotate(70deg);
+
+    }
+    60%{
+        transform: translateY(140px) rotate(80deg);
+
+    }
+    80%{
+        transform: translateY(160px) rotate(90deg);
+
+    }
+    100%{
+        transform: translateY(180px) rotate(100deg);
+
+    }
+
+
+}
+
+@keyframes animaciones-bola{
+    0%{
+        transform: translateY(80px) rotate(45deg);
+    }
+    20%{
+        transform: translateY(100px) rotate(60deg);
+
+    }
+    30%{
+        transform: translateY(120px) rotate(70deg);
+
+    }
+    60%{
+        transform: translateY(140px) rotate(80deg);
+
+    }
+    80%{
+        transform: translateY(160px) rotate(90deg);
+
+    }
+    100%{
+        transform: translateY(180px) rotate(100deg);
+
+    }
+
+
+}
+

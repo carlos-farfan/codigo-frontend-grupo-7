@@ -1,0 +1,37 @@
+p{
+    color: blueviolet;
+}
+
+/*Sintaxis CSS
+    Selector {
+        propiedad: valor
+    }
+
+*/
+
+
+h1{
+    color: green;
+    font-size: 100px;
+}
+
+body{
+    background-color: chocolate;
+    text-align: center;
+}
+header{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+.hola-mundo{
+background-color: green;
+font-size: 50px;
+
+}
+
+#lugar{
+    color: white;
+    font-weight: bold;
+    font-size: ;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+
+
+#nombre{
+    color: darkslategrey;
+}
+
+#color1{
+    color: darkviolet;
+
+}
+
+#color2{
+    color: rgb(0, 67, 211);
+
+}
+
+#color3{
+    color: rgb(0, 211, 46);
+
+}
+
+#color4{
+    color: rgb(172, 211, 0);
+
+}
+
+#color5{
+    color: rgb(211, 112, 0);
+
+}
+
+.cancion{
+    font-family: 'Roboto Mono', monospace;
+}

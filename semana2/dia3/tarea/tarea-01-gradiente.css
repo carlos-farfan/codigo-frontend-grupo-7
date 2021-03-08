@@ -1,0 +1,15 @@
+#infografia{
+    height: 695px;
+    width: 250px;
+    border-radius: 68%;
+    font-weight: bold;
+    text-align: center;
+   /* background-color: yellow;*/
+    background-image: linear-gradient(to top left, rgb(5, 84, 87),orange,brown, blue,rgb(102, 51, 9), purple,rgb(128, 0, 64));
+}
+
+p{
+    text-align: center;
+    color: white;
+
+}    

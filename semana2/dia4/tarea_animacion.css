@@ -1,0 +1,47 @@
+figure{
+    text-align: center;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    animation: quiero-que-gire 5s infinite;
+}
+
+
+
+@keyframes quiero-que-gire {
+    0%{
+    filter: grayscale(50%);
+    }
+    15%{
+    transform: rotate(15deg) scaleY(1.5) translateX(20px);
+    filter: grayscale(10%);
+    }
+    30%{
+        transform: rotate(30deg) scaleY(-1.5) translateX(-40px);
+        filter: grayscale(30%);
+    }
+    45%{
+        transform: rotate(45deg) scaleY(1.5) translateX(20px);
+        filter: grayscale(45%);
+    }
+
+    60%{
+        transform: rotate(60deg) scaleY(-1.5) translateY(20px);
+        filter: blur(20px);
+    }
+    
+    75%{
+        transform: rotate(75deg) scaleY(1.5) translateY(-40px);
+    
+    }
+
+    90%{
+        transform: rotate(90deg) scaleY(-1.5);
+    }
+
+    100%{
+    
+    }
+}

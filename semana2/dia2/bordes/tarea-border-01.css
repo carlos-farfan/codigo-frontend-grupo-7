@@ -1,0 +1,27 @@
+h1{
+    border-style: double dashed dashed dotted;
+    text-align: center;
+}
+
+#primera{
+    border-style: inset;
+    text-align: center;
+}
+
+#segunda{
+    border-style: double;
+    text-align: center;
+}
+
+#tercera{
+    border-style: solid;
+    text-align: center;
+}
+
+#cuarta{
+    color: cornsilk;
+    border-style: dotted double dotted double;
+    border-color: blueviolet;
+    background-color: brown;
+    text-align: center;
+}

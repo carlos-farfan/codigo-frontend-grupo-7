@@ -1,0 +1,35 @@
+body{
+    background-color: lightblue;
+}
+#primer-parrafo{
+background-color: red;
+max-width: 50%;
+}
+
+#segundo-parrafo{
+    background-color: green;
+    opacity: 0.5;
+}
+
+#tercer-parrafo{
+    background-color: blue;
+    opacity: 10%;
+    
+}
+
+
+#cuarto-parrafo{
+    background-color: rgba(33, 155, 160, 0.746);
+    
+
+}
+
+#contenedor{
+    height: 400px;
+    width: 350px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Pcvk7v3_tFVvAAqJu7tMzE9hfan1pHzr7g&usqp=CAU");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top;
+
+}

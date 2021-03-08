@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Titillium + Web: wght @ 600 & display = swap');
+
+
+
+.color{
+    color: brown;
+}
+
+.viñeta_01{
+    color: cadetblue;
+}
+#viñeta_02{
+    color: rgb(40, 75, 51);
+}
+#viñeta_03{
+    color: rgb(144, 146, 39);
+}
+#viñeta_04{
+    color: rgb(228, 85, 28);
+}
+#viñeta_05{
+    color: rgb(112, 95, 160);
+}
+
+#titulo{
+    font-family: 'Roboto', sans-serif
+}
+
+#parrafo1{
+    font-family: 'Roboto', sans-serif;
+}
+#parrafo2{
+    font-family: 'Poppins', sans-serif;
+}
+#parrafo3{
+    font-family: 'Roboto Slab', serif;
+}
+#parrafo4{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#nombre{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: darkslateblue;
+    font-weight: bold;
+
+}
+
+#apellido_01{
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    color: darkolivegreen;
+    font-weight: bold;
+}
+
+#apellido_02{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: darkcyan;
+    font-weight: bold;
+}
+
+.nombre{
+    display: inline-block;
+}

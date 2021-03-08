@@ -1,0 +1,12 @@
+div{
+    background-color: yellow;
+    font-weight: bold;
+    width: 400px;
+    border: 10px solid blue;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-left: 70px;
+    padding-bottom: 10px;
+    margin: 20px;
+    box-sizing: ;
+}

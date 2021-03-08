@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+main{
+    text-align: center;
+}
+
+.amarillo{
+    text-align: left;
+    background-color: yellow;
+}
+
+.verde{
+    text-align: center;
+    background-color: green;
+}
+#descripcion{
+    font-size: 20px;
+    color: saddlebrown;
+}
+
+footer{
+    background-color: salmon;
+}
+
+#pie{
+    color: rgb(66, 31, 14);
+}
