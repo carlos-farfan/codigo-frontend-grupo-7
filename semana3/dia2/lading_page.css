@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+html{
+    background: url("./img/pexels-photo-1438646.jpeg") no-repeat center center fixed;
+    background-size: cover;
+
+
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    opacity: 0.5;
+    filter: blur(20%);
+    background-color: #303303;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#logo{
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+
+}
+
+nav {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    font-family: "Poppins", sans-serif;
+  }
+
+
+main {
+    text-align: center;
+  }
+
+#foto {
+    margin-top: 100px;
+    border-radius: 50%;
+    width: 200px;
+    border: 5px solid white;
+  }
+
+#nombre {
+   font-family: "Poppins", sans-serif;
+   margin-bottom: 30px;
+   color: white;
+   font-size: xxx-large;
+  }
+
+
+
+
+button {
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #9c820b;
+    color: rgb(74, 75, 8);
+    font-size: 30px;
+    padding: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+
+#parrafo{
+    font-size: large;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    margin: 100px;
+    padding: 30px;
+    border-radius: 20px;
+    justify-content: center;
+    background-color: #ffffff;
+    opacity: 0.2;
+    box-sizing: border-box;
+
+  }
+
+
+#waves{
+      width: 100%;
+      left: 0;
+      margin-bottom: -10px;
+  }
+
+
+footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #352e04;
+  }
+
+
+  .subfooter {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #subfooter3 {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+.red-social {
+    width: 30px;
+    margin: 10px;
+    color: white;
+  }

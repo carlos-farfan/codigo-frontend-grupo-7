@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+
+
+*{
+    margin: 0px;
+}
+
+
+
+
+
+header{
+    height: 70px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    background: linear-gradient(184deg, rgba(255,255,255,1) 0%, rgba(253,187,45,1) 100%);
+
+
+}
+
+#logo{
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+nav{
+    margin: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#main{
+    z-index: 0;
+    max-width: fit-content;
+    
+
+
+}
+
+#fondo{
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+}
+
+#nombre{
+    color: white;
+    position: relative;
+    top: 200px !important;
+    left: 45% !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+
+}
+
+
+#perfil{
+    position: relative;
+    top: 200px !important;
+    left: 750px !important;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px white;
+}
+#botones{
+    position: relative;
+    top: 180px !important;
+    left: 550px !important;
+    padding: 30px;
+    height: 50px;
+
+}
+
+.boton{
+    border-radius: 5%;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+
+}
+
+
+
+/* 12 */
+.btn-12{
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    border:none;
+    box-shadow: none;
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    -webkit-perspective: 230px;
+    perspective: 230px;
+}
+.btn-12 span {
+    background: rgb(0,172,238);
+    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+    display: block;
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    border-radius: 5px;
+    margin:0;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.btn-12 span:nth-child(1) {
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    -webkit-transform-origin: 50% 50% -20px;
+    -moz-transform-origin: 50% 50% -20px;
+    transform-origin: 50% 50% -20px;
+}
+.btn-12 span:nth-child(2) {
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transform-origin: 50% 50% -20px;
+    -moz-transform-origin: 50% 50% -20px;
+    transform-origin: 50% 50% -20px;
+}
+.btn-12:hover span:nth-child(1) {
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+}
+.btn-12:hover span:nth-child(2) {
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    color: transparent;
+    -webkit-transform: rotateX(-90deg);
+    -moz-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+}
+
+
