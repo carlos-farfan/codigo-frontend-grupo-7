@@ -1,0 +1,51 @@
+body{
+    background-color: teal;
+}
+
+
+/* PANTALLAS EXTRA PEQUEÑAS (celulares, hasta 600 px, o sea que tienen un ancho mayor a 600px*/
+
+@media only screen and (max-width:600px){
+    body{
+        background-color: tomato;
+    }
+}
+
+
+
+/*PANTALLAS PEQUEÑAS (Tablets, en modo PORTrait (vertical), y celulares grandes, o sea que tienen un ancho mayor a 600 px*/
+@media only screen and (min-width:600px){
+    body{
+        background-color: violet;
+    }
+}
+
+
+
+/*Pantallas de tamaño MEDIO (Tablets en modo Landscape (horizontal) o sea que tienen un ancho mayor o igual a 768px)*/
+
+
+@media only screen and (min-width:768px){
+    body{
+        background-color: yellow;
+    }
+}
+
+
+/*Pantallas grandes (Laptops/computadoras de escritorio, o sea que tienen un ancho mayor o igual 992px)*/
+
+@media only screen and (min-width:992px){
+    body{
+        background-color: peru;
+    }
+}
+
+
+/*Pantallas Muy Grandes (Ej.: Laptops gamer, monitores xtra grandes, o sea que tienen un ancho mayor o igual a 1200px)*/
+
+@media only screen and (min-width:1200px){
+    body{
+        background-color: blue;
+    }
+
+}
