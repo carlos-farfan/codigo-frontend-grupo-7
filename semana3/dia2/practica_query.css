@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  background: url("./img/pexels-photo-1438646.jpeg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  opacity: 0.65;
+  display: flex;
+  justify-content: space-between;
+}
+#logo {
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+nav {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+main {
+  text-align: center;
+}
+
+#foto {
+  margin-top: 100px;
+  border-radius: 48%;
+  width: 300px;
+  border: 5px solid white;
+}
+
+#nombre {
+  margin-bottom: 30px;
+  color: black;
+  font-size: xxx-large;
+}
+
+button {
+  border-radius: 15px;
+  border: 3px solid black;
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#parrafo {
+  font-size: large;
+  color: black;
+  margin: 100px;
+  padding: 30px;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: white;
+  opacity: 0.8;
+  box-sizing: border-box;
+}
+
+#waves {
+  width: 100%;
+  left: 0;
+  margin-bottom: -7px;
+}
+footer {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #303303;
+  ;
+}
+
+.sub-footer {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#sub-footer-3 {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.texto-footer {
+  font-size: 10px;
+  color: white;
+}
+.red-social {
+  width: 10px;
+  margin: 10px;
+}
+
+/*pantalla celular*/
+@media only screen and (max-width: 600px) {
+  #foto{
+    width: 150px;
+  }
+  #nombre {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+  }
+  a{
+    font-size: small;
+  }
+  #botones {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  button {
+    padding: 3px;
+    font-size: 15px;
+  }
+  #parrafo{
+    font-size: medium;
+  margin: 30px;
+  padding: 10px;
+  }
+  #waves {
+    margin-bottom: -5px;
+  }
+  #sub-footer-1{
+  
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  justify-content: flex-start;
+  }
+  .texto-footer {
+    font-size: small;
+  
+  }
+
+}
+
+
+@media only screen and (min-width:600px){
+
+}
+
+@media only screen and (min-width:992px){
+
+}
+
+@media only screen and (min-width:800px){
+
+  #texto1{
+      font-family: 'Lato', sans-serif;
+      font-size: larger;
+      font-weight: bolder;
+    }
+    
+}
+
+
+/*pantallas MUY GRANDES(ej. laptos gamer , monitores extra grandes , o sea que tienen un ancho mayor o igual a 1200px)*/
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+/*Pantallas de tamaño MEDIO (Tablets en modo Landscape (horizontal) o sea que tienen un ancho mayor o igual a 768px)*/
+
+
+@media only screen and (min-width:768px){
+    #logo{
+        height: 50px;
+
+    }
+    nav{
+        font-size: 20px;
+
+    }
+
+    #foto{
+        width: 200px;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    header {
+        position: static;
+
+
+    }
+    #botones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+    button{
+        width: 50%;
+
+    }
+
+    #parrafo{
+        background-color: white;
+        opacity: 0.5;
+        font-size: xx-large;
+
+    }
+    #nombre{
+        color: white;
+
+    }
+
+
+    .texto-footer{
+        font-size: 15px;
+
+    }
+
+    .red-social{
+        width: 30px;
+
+    }
+
+
+
+
+
+}

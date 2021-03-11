@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&family=Poppins:wght@500&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+font-family: 'Roboto', sans-serif;
+
+
+
+font-family: 'Rubik', sans-serif;
+
+
 body{
     background-color: teal;
 }
@@ -8,6 +22,13 @@ body{
 @media only screen and (max-width:600px){
     body{
         background-color: tomato;
+        text-align: center;
+    }
+
+    img{
+        width: 100px;
+        height: 600px;
+        border-radius: 12px;
     }
 }
 
@@ -18,6 +39,11 @@ body{
     body{
         background-color: violet;
     }
+    img{
+        width: 200px;
+        height: 400px;
+    }
+
 }
 
 
@@ -29,6 +55,10 @@ body{
     body{
         background-color: yellow;
     }
+    img{
+        display: none;
+    }
+
 }
 
 
@@ -38,6 +68,13 @@ body{
     body{
         background-color: peru;
     }
+    img{
+        border-radius: 12px;
+        width: 300px;
+        border-radius: 50%;
+        display: block;
+    }
+
 }
 
 
@@ -46,6 +83,16 @@ body{
 @media only screen and (min-width:1200px){
     body{
         background-color: blue;
+    }
+
+    img{
+        filter: opacity(0.5);
+    }
+
+
+    #texto1{
+        font-family: 'Roboto', sans-serif;
+
     }
 
 }
