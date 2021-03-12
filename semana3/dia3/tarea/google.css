@@ -1,0 +1,115 @@
+/*ELEMENTOS FIJOS*/
+* {
+    margin: 0;
+}
+body {
+    font-family: Roboto,HelveticaNeue,Arial,sans-serif;
+    background-color: white;
+}
+#perfil-google {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+#puntos {
+    width: 35px;
+    fill: #5f6368;
+    margin-top: 3px;
+}
+.section-a {
+    font-size: 12px;
+    text-decoration: none;
+}
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    flex-direction: row;
+    
+}
+#contenedor-left {
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+nav {
+    margin-top: 9px;
+    margin-left: 10px;
+    display: flex;
+
+}
+#rayas {
+    margin-left: 5px;
+    margin-top: 7px;
+}
+.section-a {
+    margin-left: 10px;
+    margin-right: 20px;
+    font-weight: 600;
+    /*color: #70757a;*/
+    background: -webkit-linear-gradient(90deg, rgba(37,17,51,1) 0%, rgb(49, 39, 39) 49%, rgba(255,149,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section-b {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+#contenedor-rigth {
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+#dentro-del-buscador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+#lupa {
+    width: 20px;
+    height: 20px;
+    fill: #5f6368;
+    align-items: center;
+}
+#microfono {
+    width: 20px;
+    height: 20px;
+}
+/*ELEMENTOS FIJOS*/
+main {
+    text-align: center;
+}
+
+#google {
+    margin-top: 100px;
+    width: 20%;
+}
+#buscador {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 736px;
+    height: 40px;
+    margin-top: 20px;
+    display: block;
+    background: none;
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid #dadce0;
+}
