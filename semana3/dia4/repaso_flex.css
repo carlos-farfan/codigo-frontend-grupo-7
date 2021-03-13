@@ -1,10 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 *{
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
-
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 
 html{
@@ -19,6 +17,7 @@ html{
     display: flex;
     flex-direction: row;
     position: fixed;
+    top: 0;
     width: 100%;
     background-color: black;
     justify-content: space-between;
@@ -28,11 +27,11 @@ html{
     font-size: xx-large;
     font-weight: bold;
     color: white;
-    margin-top: 10px;
+    margin-top: 35px;
 }
 
 #img{
-    width: 50px;
+    width: 100px;
     height: auto;
     margin: 10px;
 }
@@ -60,7 +59,7 @@ nav{
 #contenedor-vertical{
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 200px;
     align-items: center;
 }
 
@@ -69,5 +68,50 @@ nav{
     height: auto;
     margin: 10px;
     box-shadow: 5px 5px 15px 5px #000000;
+}
+
+
+#contenedor-horizontal-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: ;
+    background-color: blueviolet;
+    margin: 20px;
+}
+
+
+.frase{
+    color: rgb(20, 20, 20);
+    font-size: large;
+    font-weight: bolder;
+    background-color: white;
+    margin: 10px;
+}
+
+
+@media only screen and (max-width:600px){
+    #contenedor-hotizontal{
+        position: static;
+
+    }
+    #parrafo{
+        display: none;
+    }
+
+    nav{
+        margin-right: 10px;
+    }
+
+
+    #contenedor-horizontal-2{
+        flex-wrap: wrap;
+        background-color: none;
+    }
+
+
+    .frase{
+        background-color: gainsboro;
+        padding: 10px;
+    }
 
 }

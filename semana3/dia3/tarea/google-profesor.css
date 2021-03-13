@@ -1,0 +1,157 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+    width: 100%;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+  a {
+    margin-right: 15px;
+    margin-top: 10px;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
+  #icono-header {
+    margin-top: 7px;
+    width: 24px;
+  }
+  
+  #boton-header {
+    margin-left: 20px;
+    margin-right: 10px;
+    border: 1px solid #4285f4;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 9px;
+    padding-bottom: 7px;
+    border-radius: 4px;
+    width: 130px;
+    height: 33px;
+    outline: none;
+    background: #4285f4;
+    color: white;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  #logo-google {
+    margin-top: 30px;
+  }
+  
+  #buscador {
+    display: flex;
+    border: 1px solid rgba(223, 223, 223, 0.87);
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 50%;
+  }
+  #icono-buscador-lupa {
+    margin-left: -30px !important;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    flex-grow: 1;
+  }
+  #icono-buscador-micro {
+    margin-right: -30px !important;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    flex-grow: 1;
+  }
+  
+  input {
+    border: none;
+    flex-grow: 2;
+  }
+  
+  input:hover {
+    border: none;
+  }
+  input:focus {
+    outline: none;
+  }
+  
+  #botones-busqueda {
+    margin-top: 30px;
+  }
+  #boton-busqueda-1 {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: rgba(247, 247, 247, 0.925);
+  }
+  
+  #boton-busqueda-2 {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(247, 247, 247, 0.925);
+  }
+  
+  #texto{
+      margin-top: 20px;
+      font-size: xx-small;
+  }
+  #etiqueta-texto{
+      font-size: xx-small; 
+  }
+  
+  footer{
+      display: flex;
+      bottom: 0;
+      position: fixed;
+      width: 100%;
+      background-color: rgba(247, 247, 247, 0.925) ;
+      flex-direction: column;
+  }
+  
+  #sub-footer-1{
+      align-items: flex-start;
+      border-bottom: 1px solid rgba(230, 228, 228, 0.925);
+  }
+  .texto-footer{
+      margin: 20px;
+      color: rgba(124, 123, 123, 0.925) ;
+  }
+  .texto-footer-2{
+      margin-top: 10px;
+      margin-bottom: 5px;
+      color: rgba(124, 123, 123, 0.925) ;
+  }
+  #sub-footer-2{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-bottom: 5px;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    #icono-buscador-lupa {
+      margin-left: 0px !important;
+      width: 80px;
+    }
+    #icono-buscador-micro {
+      margin-right: 0px !important;
+      width: 80px;
+    }
+  }
+  © 2021 GitHub, Inc.
+  

@@ -12,8 +12,8 @@ body {
     border-radius: 50%;
 }
 #puntos {
-    width: 35px;
-    fill: #5f6368;
+    width: 25px;
+    fill: #a55029;
     margin-top: 3px;
 }
 .section-a {
@@ -68,7 +68,7 @@ nav {
     left: 0;
     right: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 10px;
     margin-right: 15px;
 }
