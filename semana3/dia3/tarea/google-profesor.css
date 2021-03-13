@@ -1,3 +1,11 @@
+.root{
+    --colorBotones: rgba(247,247,247, 0.9);
+
+
+}
+
+
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
