@@ -1,22 +1,38 @@
 console.log("Hola mundo!!!")
 
-const libro = require ("./libros")
+const libros = require("./libros")
 
-libros.map((libro)=>{
+libros.map((libro) => {
     console.log(libro);
 });
 
 
 
-//NPM Node packge manager - Gestor de paquetes de NODE
+
+/* const generadorPokemones = async (idPokemon) => {
+    try {
+      const respuesta = await fetch(
+        `https://pokeapi.co/api/v2/pokemon/${idPokemon}/`
+      );
+      const data = await respuesta.json();
+
+        console.log(data)
+
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  generadorPokemones(25) */
+
+
+
+//NPM node package - gestor de paquetes de node
 
 
 let cowsay = require("cowsay");
 
 console.log(cowsay.say({
-	text : "Hola amigos de Codigo",
-	e : "oO",
-	T : "U "
+    text: "Hola Amigos de codiGo",
+    e: "oO",
+    T: "U "
 }));
-
-// or cowsay.think()
